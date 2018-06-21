@@ -1,0 +1,142 @@
+/*
+
+usunac bordery
+przenies wszystkie atrybuty do css
+in icon jest zla
+ikony za duze w srodku
+bombki ustawic
+powiekszyc i rozstrzelic linie_1
+kontakt w pierwzej lini w lewo
+kreska u gory przy nawigacji
+html5
+dolne napisy maja wyjezdzac
+*/
+
+body{
+    margin: 0;
+    min-width:1024px;
+    font-family: Sans-Serif;
+}
+
+.displayBlock{
+    float: left;
+}
+
+#first_line{
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: white;
+}
+
+#second_line{
+
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+#third_line{
+    background-image: url('../img/bg.svg');
+    background-position: 0% 50%;
+    /*background-size:  1179px 430px*/
+    height: 430px; /*430*/
+    width: 100%; /*1179*/
+    color: white;
+}
+/*#third_line > div > img{
+    right: 0;
+}*/
+
+#last_line{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 56px;
+    width: 1000px;
+    text-align: center;
+}
+#last_line > div{
+    width: 50%;
+}
+#last_line > div > div{
+    width:40%;
+    margin-right:5%;
+    margin-left: 5%;
+}
+#last_line > div > div > a{
+    color: black;
+}
+
+#web_page_design{
+    padding-top: 110px;
+}
+#web_page_design > span{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#web_passion{
+    padding-top: 30px;
+}
+#web_passion > span {
+    font-size: 14px;
+}
+
+#logo > span {
+    color: #00baf4;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+
+}
+
+#contact > i{
+    margin-left: 20px;
+}
+#media, #nav{
+    float: right;
+}
+#media > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nav > a{
+    text-decoration: none;
+    margin-left: 45px;
+    color: black;
+}
+#nav > a:hover{
+    color: #00baf4;
+    border-top: 2px solid #00baf4;
+}
+
+
+
+
+
+p{
+    word-wrap: wrap-word;
+    text-align: center;
+    font-size: 14px;
+}
+
+.left{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+a{
+    font-size: 14px;
+}
+
